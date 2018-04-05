@@ -16,6 +16,7 @@ var hogImgUris = [
 ]
 
 var hogs = []
+var maxDistance
 
 function createHogs() {
   return hogImgUris.map((uri, idx) => {
@@ -27,9 +28,26 @@ function createHogs() {
 
 function setup() {
   hogs = createHogs()
+  maxDistance = dist(0, 0, windowWidth/5, windowHeight/5)
 }
 
 function draw() {
   scale(0.2)
-  // hogs.forEach(hog => hog.trembleWithAnticipation())
+
+  // Hog Farmer Solution
+  // hogs.forEach(hog => {
+  //   const exciteMultiplier = maxDistance/dist(mouseX, mouseY, hog.x, hog.y)
+  //   hog.trembleWithAnticipation(exciteMultiplier)
+  // })
+
+  // Hogfather Farmer Solution
+  // hogs.forEach(hog => {
+  //   const totalExcitement = hogs.reduce((acc, otherHog) => {
+  //     if (hog !== otherHog)
+  //       acc += dist(hog.x, hog.y, otherHog.x, otherHog.y)
+  //     return acc
+  //   }, 0)
+  //   const exciteMultiplier = 200/(totalExcitement / (hogs.length - 1))
+  //   hog.trembleWithAnticipation(exciteMultiplier)
+  // })
 }

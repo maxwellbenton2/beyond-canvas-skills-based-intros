@@ -28,11 +28,9 @@ Let's clean up this inaccurate representation of county fair hog behavior before
   - As our mouse approaches the center of any given hog, its excitement grows
   - Inversely, the further away from the hog our mouse is, the less excited the hog is
 
-
 **Hogfather (bonus)**
   - Being fiercely territorial, as a hog approaches any other hog its excitement grows (and diminishes with distance)
 
-Don't forget to make use of the [p5-dom documentation!][p5-dom]. Specifically, consider making use of the `mouseX` & `mouseY` variables, as well as the `dist()` function!
 
 [p5-dom]: https://p5js.org/reference/#/libraries/p5.dom
 [hog-reference]: "https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_w7000_0195.pdf"

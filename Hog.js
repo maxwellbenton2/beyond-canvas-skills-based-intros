@@ -10,11 +10,11 @@ class Hog {
 
     // Hog Scientist Solution
     // this.domEl.mouseMoved(() => {
-    //   this.trembleWithAnticipation()
+    //   this.trembleWithExcitement()
     // })
   }
 
-  trembleWithAnticipation(multiplier=1) {
+  trembleWithExcitement(multiplier=1) {
     console.log(this);
     console.log(this.x, this.y, multiplier);
     this.x += random(-5, 5) * multiplier

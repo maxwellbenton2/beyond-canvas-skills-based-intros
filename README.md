@@ -11,9 +11,9 @@ In exploring this library, we are going to jump right in and work with some imag
 
 ## Excited Swine
 
-Take a look at `mySketch.js`, which uses `Hog.js`. In `mySketch.js`, several p5 `img` objects are made and wrapped up within the custom `Hog` class that we made ourselves. The `Hog` class is responsible for keeping track of the p5 DOM elements position and excitement level. It is also responsible for managing the movement of the element via the `trembleWithAnticipation` method.
+Take a look at `mySketch.js`, which uses `Hog.js`. In `mySketch.js`, several p5 `img` objects are made and wrapped up within the custom `Hog` class that we made ourselves. The `Hog` class is responsible for keeping track of the p5 DOM elements position and excitement level. It is also responsible for managing the movement of the element via the `trembleWithExcitement` method.
 
-Start up your server and take a look at what we have in the browser. Following, try commenting out the line in the `draw` function that activates the `hog.trembleWithAnticipation` method. Inspect the results in the browser. Now we're talking...
+Start up your server and take a look at what we have in the browser. Following, try commenting out the line in the `draw` function that activates the `hog.trembleWithExcitement` method. Inspect the results in the browser. Now we're talking...
 
 Naturally, the only problem with this browserification of hog excitement is that it's simply not _realistic_. You know as well as we that a county fair hog doesn't just _shake randomly_ without purpose: instead, as you approach them, their excitement levels are inversely proportional to the distance between you and them.
 

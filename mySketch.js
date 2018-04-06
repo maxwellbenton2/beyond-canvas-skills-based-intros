@@ -37,7 +37,7 @@ function draw() {
   // Hog Farmer Solution
   // hogs.forEach(hog => {
   //   const exciteMultiplier = maxDistance/dist(mouseX, mouseY, hog.x, hog.y)
-  //   hog.trembleWithAnticipation(exciteMultiplier)
+  //   hog.trembleWithExcitement(exciteMultiplier)
   // })
 
   // Hogfather Farmer Solution
@@ -48,6 +48,6 @@ function draw() {
   //     return acc
   //   }, 0)
   //   const exciteMultiplier = 200/(totalExcitement / (hogs.length - 1))
-  //   hog.trembleWithAnticipation(exciteMultiplier)
+  //   hog.trembleWithExcitement(exciteMultiplier)
   // })
 }

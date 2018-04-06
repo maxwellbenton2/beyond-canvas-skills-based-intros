@@ -10,7 +10,7 @@ class Hog {
     this.domEl.size(100, 100)
   }
 
-  trembleWithAnticipation() {
+  trembleWithExcitement() {
     this.x += random(-5, 5) * this.excitement
     this.y += random(-5, 5) * this.excitement
     this.domEl.position(this.x, this.y)

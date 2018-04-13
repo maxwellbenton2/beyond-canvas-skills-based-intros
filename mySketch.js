@@ -32,6 +32,8 @@ function setup() {
 function draw() {
   scale(0.2)
   hogs.forEach(hog => {
-    if (mouseX > hog.x)
+    if ((mouseX > hog.x && mouseX < hog.x+100) && (mouseY > hog.Y && mouseY < hog.y+100)) {
+      hog.
+    }
   })
 }

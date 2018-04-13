@@ -27,12 +27,10 @@ function createHogs() {
 
 function setup() {
   hogs = createHogs()
-  hogs.forEach(hog => {
-    hog.addEventListener('mouseover',  hog.trembleWithExcitement)
-  })
 }
 
 function draw() {
   scale(0.2)
+  mou
   // hogs.forEach(hog => hog.trembleWithExcitement())
 }

@@ -34,7 +34,7 @@ function draw() {
   hogs.forEach(hog => {
     
     if (mouseX >= hog.x && mouseX <= hog.x+100) {
-      console.log('hit')
+      hog.trembleWithExcitement()
     }
   })
 }

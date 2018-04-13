@@ -8,7 +8,6 @@ class Hog {
     this.domEl = createImg(uri)
     this.domEl.position(x, y)
     this.domEl.size(100, 100)
-    this.domEl.addEventListener('mouseover', trembleWithExcitement)
   }
 
   trembleWithExcitement() {

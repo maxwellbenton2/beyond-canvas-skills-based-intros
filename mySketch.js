@@ -32,6 +32,6 @@ function setup() {
 function draw() {
   scale(0.2)
   hogs.forEach(hog => {
-    
+    if ()
   })
 }

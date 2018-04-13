@@ -33,7 +33,7 @@ function draw() {
   scale(0.2)
   hogs.forEach(hog => {
     
-    if (mouseX >= hog.x && mouseX <= hog.x+100) {
+    if ((mouseX >= hog.x && mouseX <= hog.x+100) && (mouseX >= hog.x && mouseX <= hog.x+100)) {
       hog.trembleWithExcitement()
     }
   })

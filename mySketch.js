@@ -28,7 +28,7 @@ function createHogs() {
 function setup() {
   hogs = createHogs()
   hogs.forEach(hog => {
-    hog.addEventListener('mouseover',  hog.trembleWithExcitement
+    hog.addEventListener('mouseover',  hog.trembleWithExcitement)
   })
 }
 
